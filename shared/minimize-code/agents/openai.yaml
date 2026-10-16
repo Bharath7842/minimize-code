@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minimize Code"
+  short_description: "Audit, plan, and write less code while preserving behavior"
+  default_prompt: "Use $minimize-code to read project instructions and specs, then audit, plan, or implement the smallest complete change."

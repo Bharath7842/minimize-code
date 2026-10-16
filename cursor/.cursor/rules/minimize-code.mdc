@@ -1,0 +1,12 @@
+---
+description: Evidence-backed code audits and minimal complete changes
+alwaysApply: true
+---
+
+Before auditing, planning, designing, or editing code, read the applicable project instructions, relevant README sections, and current specifications.
+Choose the smallest readable solution that satisfies every requirement. Reuse existing code and native capabilities before adding dependencies or abstractions.
+A plan must name source requirements, reusable code, affected files and callers, and proposed checks.
+For a plan-only request or Plan Mode, produce the plan without editing source or installing dependencies.
+Preserve compatibility, validation, security, error handling, and accessibility.
+For report-only audits, write only the requested Markdown report when the active mode permits it; preserve implementation, tests, and configuration.
+Read `.cursor/skills/minimize-code/SKILL.md` for the full workflow.
